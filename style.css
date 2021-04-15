@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+
+.main {
+    width: 310px;
+    border-radius: 5px;
+    margin: 60px 25px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    height: 230px;
+    background-color: #eaffd0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content {
+    padding: 24px;
+}
+
+.content-title .heading {
+    font-size: 22px;
+    color: #00918e;
+    padding-bottom: 15px;
+}
+
+.content-title .heading2 {
+    font-size: 16px;
+    color: #a0c334;
+    padding-bottom: 14px;
+}
+
+.content-title p {
+    font-size: 14px;
+    color: #a6a6a4
+}
+.left {
+    height: 230px;
+    background-color: #00918e;
+}
+.left .content h3 {
+    color: #e8e8e8;
+    padding-bottom: 15px;
+}
+
+.left .content .price {
+    color: #d9e4dd;
+    padding-bottom: 5px;
+}
+
+.left .content .price span {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.left .content p {
+    color: whitesmoke;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 0px;
+    margin-top: 30px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    background-color: #a0c334;
+    color: white;
+    border-radius: 5px;
+
+}
+.right {
+    height: 230px;
+    background-color: #4baea0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right .content h3 {
+    color: #e8e8e8;
+    padding-bottom: 15px;
+}
+
+.right .content p {
+    color: #d9e4dd;
+    font-size: 15px;
+}
+
+@media (min-width: 800px) {
+    .main {
+        width: 550px;
+        height: 410px;
+        margin: 120px auto;
+    }
+
+    .content {
+        padding: 30px;
+    }
+    
+    .top {
+        height: 180px;
+    }
+
+    .bottom {
+        width: 550px;
+        display: flex;
+    }
+    
+    .left {
+        width: 275px;
+        height: 230px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .right {
+        width: 275px;
+        height: 230px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .left .content h3 {
+        font-size: 16px;
+    }
+    
+    .left .content .price span {
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .left .content p {
+        font-size: 14px;
+    }
+
+    .right .content h3 {
+        font-size: 16px;
+    }
+
+    .right .content p {
+        font-size: 14px;
+    }
+}
